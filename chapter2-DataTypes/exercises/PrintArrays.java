@@ -1,6 +1,6 @@
 // can you remember how to set up your main function?
 import java.util.Arrays;
-import java.util.*;
+import java.util.ArrayList;
 
 public class PrintArrays {
   public static void main(String[] args) {
