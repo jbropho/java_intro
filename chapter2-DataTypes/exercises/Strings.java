@@ -1,12 +1,8 @@
 public class Strings {
   public static void main(String[] args) {
-    // declare the first name
-
-    // declare the second name
-
-    // create your message
-
-    // print your message!
-
+    String firstName = "jordan";
+    String secondName = "dave";
+    String printMessage = firstName + " and " + secondName + " are learning java!";
+    System.out.println(printMessage);
   }
 }
