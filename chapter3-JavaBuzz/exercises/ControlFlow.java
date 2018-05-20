@@ -1,10 +1,25 @@
-// what imports will you need?
+import java.util.Scanner;
 
-// can you remember how to set up your main function?
+public class ControlFlow {
+  public static void isEven(Integer i) {
+    if (i % 2 == 0 ) {
+      System.out.println("number is even!");
+    } else {
+      System.out.println("number is not even!");
+    }
+  }
+  
+  public static void main(String[] args) {
 
-// find a way to read in user input
+    Scanner in = new Scanner(System.in);
 
-// write a method that will check if a number is odd or even
-// (assume user only ever enters integers)
+    String s = "";
 
-// print the answer to the console
+    while(!s.equals("17")) {
+      s = in.nextLine();
+      int input = Integer.parseInt(s);
+      isEven(input);
+    }
+  }
+}
+
